@@ -106,7 +106,7 @@ setup0Stage.hears('Ich nutze ein iPhone', async (ctx) => {
     if (userExists === 0) {
         await Models.User.create({
             id: ctx.from.id,
-            ios: false,
+            ios: true,
             screenWidth: 591,
             screenHeight: 1280,
         })
@@ -114,7 +114,7 @@ setup0Stage.hears('Ich nutze ein iPhone', async (ctx) => {
         await Models.User.findOneAndUpdate({
             id: ctx.from.id
         }, {
-            ios: false,
+            ios: true,
             screenWidth: 591,
             screenHeight: 1280,
         })

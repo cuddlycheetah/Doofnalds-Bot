@@ -6,3 +6,7 @@ Es wird docker & docker-compose benötigt. Sowie einen Google-Places API Key, ei
 
 Telegram Bot erstellen (@BotFather anschreiben)
 ....
+
+
+Disclaimer
+Ich übernehme Keine Verwantwortung!

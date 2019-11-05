@@ -1,0 +1,14 @@
+version: '3'
+services:
+  redis:
+    image: redis
+    container_name: doofnalds_cache
+    hostname: redis
+    ports:
+      - "127.0.0.1:6379:6379"
+  mongo:
+    image: "mongo:latest"
+    container_name: doofnalds_db
+    hostname: mongodb
+    ports:
+      - "127.0.0.1:27017:27017"

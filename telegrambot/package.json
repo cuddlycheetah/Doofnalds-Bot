@@ -1,0 +1,17 @@
+{
+  "name": "tgbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "redisng": "^2.0.0",
+    "telegraf": "^3.33.3",
+    "telegraf-ratelimit": "^2.0.0",
+    "telegraf-session-redis": "^5.1.0"
+  }
+}

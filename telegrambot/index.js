@@ -353,8 +353,8 @@ angebotCodeStage.enter(async (ctx) => {
     ctx.session.codeMsg = codeMsg.message_id
 })
 angebotCodeStage.leave(async (ctx) => {
-    if (!!ctx.session.codeMsg)
-        await ctx.deleteMessage(ctx.session.codeMsg)
+//    if (!!ctx.session.codeMsg)
+//        await ctx.deleteMessage(ctx.session.codeMsg)
 })
 angebotCodeStage.action('abort', async (ctx) => {
     await ctx.replyWithChatAction('typing')

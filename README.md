@@ -11,7 +11,7 @@ Es wird docker & docker-compose benötigt. Sowie einen Google-Places API Key, ei
 5. die jeweiligen IMAP Logindaten, API Keys, BotTokens in die config.js schreiben
 
 6. Docker Compse starten
-7. (Microservices starten)
+7. (Microservices starten mit PM2)
 
 
 
